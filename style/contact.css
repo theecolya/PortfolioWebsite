@@ -57,14 +57,30 @@ a {
 a:hover {
     color: white;
 }
+h1 {
+    font-family: Satisfy;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
 body {
     background-color: #F898BE;
     background-image: url("background.png");
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
-    flex-direction: column;
+}
+section.form {
+    text-align: center;
+    margin-top: 10%;
+    font-family: Dekko;
+}
+input[type=text], input[type=email], input[type=submit], textarea {
+    margin-bottom: 1em;
+    background-color: #F898BE;
+    border-radius: 10px;
+    font-family: Dekko;
 }
 footer {
     display: flex;
@@ -73,7 +89,7 @@ footer {
     flex-direction: column;
 }
 footer a {
-    margin-left: 38em;
+    margin-left: 37.2em;
     margin-right: 37em;
     margin-bottom: 4em;
     padding: 1em;
