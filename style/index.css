@@ -119,6 +119,10 @@ article a {
     text-align: center;
     font-size: 1.2em;
 }
+article a:hover, footer a:hover {
+    animation: heartBeat;
+    animation-duration: 2.5s;
+}
 article h2 {
     margin-left: .6em;
 }
@@ -171,5 +175,13 @@ li {
 }
 li.twitter {
     margin-left: 1em;
+}
+li img:hover {
+    animation: swing;
+    animation-duration: 2s;
+}
+div h2 {
+    font-family: Satisfy;
+    margin-top: 2.7em;
 }
 

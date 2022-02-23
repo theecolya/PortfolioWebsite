@@ -82,6 +82,9 @@ input[type=text], input[type=email], input[type=submit], textarea {
     border-radius: 10px;
     font-family: Dekko;
 }
+input[type=text]:focus, input[type=email]:focus, input[type=submit]:focus, textarea:focus {
+    outline-color: purple;
+}
 footer {
     display: flex;
     justify-content: center;
