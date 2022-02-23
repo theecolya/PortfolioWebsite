@@ -74,11 +74,13 @@ p {
 body {
     background-color: #f898bf33;
     background-image: url("background.png");
+    width: 100%;
 }
 header {
     padding: 3em;
     padding-bottom: 2em;
     background-color: #d8519d9c;
+    width: 93.8%;
 }
 figcaption {
     text-align: center;
@@ -91,8 +93,9 @@ header nav {
 }
 section.main {
     display: flex;
-    width: 100%;
     margin-bottom: 4em;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 article {
     display: flex;
@@ -111,13 +114,14 @@ article a {
     padding-bottom: .5em;
     padding-right: .5em;
     margin-left: 1em;
-    margin-right: 50em;
+    margin-right: 1em;
     margin-bottom: 1em;
     background-color: #f898bfc7;
     border-radius: 10px;
     font-family: Dekko;
     text-align: center;
     font-size: 1.2em;
+    width: 5em;
 }
 article a:hover, footer a:hover {
     animation: heartBeat;
@@ -125,36 +129,36 @@ article a:hover, footer a:hover {
 }
 article h2 {
     margin-left: .6em;
+    width: 10em;
 }
 article p {
     margin-left: 1em;
     font-family: Dekko;
     font-size: 1.5em;
+    width: 80%;
 }
 section.projects {
     display: flex;
     justify-content: space-around;
     margin-bottom: 8em;
+    flex-wrap: wrap;
 }
 section.posts {
     display: flex;
     justify-content: space-around;
     margin-bottom: 8em;
+    flex-wrap: wrap;
 }
 figure img {
     border-radius: 10px;
 }
 footer {
-    display: flex;
     justify-content: center;
     text-align: center;
-    flex-direction: column;
 }
 footer a {
-    margin-left: 36.2em;
-    margin-right: 37em;
-    margin-bottom: 2em;
-    padding: 1em;
+    margin-bottom: 4em;
+    padding: .3em 1em;
     background-color: #f898bfc7;
     border-radius: 10px;
     font-family: Dekko;
@@ -163,10 +167,12 @@ footer a {
 }
 footer h2 {
     margin-left: 0em;
+    margin-bottom: 1.5em;
 }
 ul {
     text-align: center;
     margin-bottom: 2em;
+    margin-top: 2.4em;
 }
 li {
     display: inline;
