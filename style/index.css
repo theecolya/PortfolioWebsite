@@ -70,7 +70,6 @@ h2 {
     font-family: Shrikhand;
 }
 p {
-    margin: 1em;
     margin-top: .2em;
     font-family: BenchNine;
 }
@@ -84,7 +83,8 @@ section, footer {
     width: auto;
 }
 header {
-    padding: 3em;
+    padding-top: 2em;
+    padding-left: 2em;
     padding-bottom: 2em;
     background-color: #d8519d9c;
     width: auto;
@@ -113,6 +113,7 @@ article {
     width: auto;
     text-align: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 div.media img {
     border-radius: 50%;
@@ -139,7 +140,6 @@ article h2 {
     width: auto;
 }
 article p {
-    margin-left: 1em;
     font-size: 1.5em;
     width: 80%;
 }
