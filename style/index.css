@@ -63,7 +63,6 @@ h1 {
     margin-bottom: .3em;
 }
 h2 {
-    margin-left: 1em;
     margin-bottom: 0.5em;
     font-family: Dekko;
     font-size: 2em;
@@ -106,12 +105,13 @@ article {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 5em;
+    width: auto;
+    text-align: center;
+    align-items: center;
 }
 div.media img {
     border-radius: 50%;
     height: 25em;
-    margin-left: 1em;
 }
 article a {
     padding-left: .5em;
@@ -133,8 +133,7 @@ article a:hover, footer a:hover {
     animation-duration: 2.5s;
 }
 article h2 {
-    margin-left: .6em;
-    width: 10em;
+    width: auto;
 }
 article p {
     margin-left: 1em;
