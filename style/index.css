@@ -94,7 +94,7 @@ figcaption {
 header nav {
     font-family: Dekko;
     font-size: 1.5em;
-    width: 97%;
+    width: auto;
 }
 section.main {
     display: flex;
@@ -106,7 +106,9 @@ article {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 5em;
+    width: 50%;
+    text-align: center;
+    align-items: center;
 }
 div.media img {
     border-radius: 50%;
