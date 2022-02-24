@@ -210,3 +210,8 @@ div.divider {
 section.posts {
     margin-bottom: 3em;
 }
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
