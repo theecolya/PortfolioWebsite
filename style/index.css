@@ -72,15 +72,19 @@ p {
     margin: 1em;
 }
 body {
+    width: 100%;
     background-color: #f898bf33;
     background-image: url("background.png");
-    width: 100%;
+    background-size: cover;
+}
+section, footer {
+    width: auto;
 }
 header {
     padding: 3em;
     padding-bottom: 2em;
     background-color: #d8519d9c;
-    width: 93.8%;
+    width: auto;
 }
 figcaption {
     text-align: center;
@@ -90,6 +94,7 @@ figcaption {
 header nav {
     font-family: Dekko;
     font-size: 1.5em;
+    width: 97%;
 }
 section.main {
     display: flex;
@@ -168,6 +173,7 @@ footer a {
 footer h2 {
     margin-left: 0em;
     margin-bottom: 1.5em;
+    margin-top: .8em;
 }
 ul {
     text-align: center;
@@ -190,4 +196,11 @@ div h2 {
     font-family: Satisfy;
     margin-top: 2.7em;
 }
-
+div.divider {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+.divider img {
+    height: 4.17em;
+}
