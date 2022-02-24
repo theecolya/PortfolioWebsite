@@ -53,22 +53,26 @@ a {
     margin-top: 1em;
     color: black;
     margin-right: 1em;
+    font-family: Zen Loop;
+    font-weight: bold;
 }
 a:hover {
     color: white;
 }
 h1 {
-    font-family: Satisfy;
+    font-family: Seaweed Script;
     font-size: 3em;
     margin-bottom: .3em;
 }
 h2 {
     margin-bottom: 0.5em;
-    font-family: Dekko;
     font-size: 2em;
+    font-family: Shrikhand;
 }
 p {
     margin: 1em;
+    margin-top: .2em;
+    font-family: BenchNine;
 }
 body {
     width: 100%;
@@ -87,11 +91,11 @@ header {
 }
 figcaption {
     text-align: center;
-    font-family: Dekko;
     font-size: 1.5em;
+    font-family: Zen Loop;
+    font-weight: bold;
 }
 header nav {
-    font-family: Dekko;
     font-size: 1.5em;
     width: 97%;
 }
@@ -100,6 +104,7 @@ section.main {
     margin-bottom: 4em;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 1em;
 }
 article {
     display: flex;
@@ -111,21 +116,19 @@ article {
 }
 div.media img {
     border-radius: 50%;
-    height: 25em;
+    height: 18em;
+    border: 2px dashed pink;
+    padding: .3em;
 }
 article a {
-    padding-left: .5em;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    padding-right: .5em;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
+    padding: .5em;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: .5em;
     background-color: #f898bfc7;
     border-radius: 10px;
-    font-family: Dekko;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.7em;
     width: 5em;
 }
 article a:hover, footer a:hover {
@@ -137,7 +140,6 @@ article h2 {
 }
 article p {
     margin-left: 1em;
-    font-family: Dekko;
     font-size: 1.5em;
     width: 80%;
 }
@@ -165,7 +167,6 @@ footer a {
     padding: .3em 1em;
     background-color: #f898bfc7;
     border-radius: 10px;
-    font-family: Dekko;
     text-align: center;
     font-size: 1.2em;
 }
@@ -192,7 +193,6 @@ li img:hover {
     animation-duration: 2s;
 }
 div h2 {
-    font-family: Satisfy;
     margin-top: 2.7em;
 }
 div.divider {
