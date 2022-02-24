@@ -101,10 +101,10 @@ header nav {
 }
 section.main {
     display: flex;
-    margin-bottom: 4em;
+    margin-bottom: 5em;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 1em;
+    margin-top: 4em;
 }
 article {
     display: flex;
@@ -169,6 +169,7 @@ footer a {
     border-radius: 10px;
     text-align: center;
     font-size: 1.2em;
+    margin-right: 0px;
 }
 footer h2 {
     margin-left: 0em;
@@ -194,6 +195,9 @@ li img:hover {
 }
 div h2 {
     margin-top: 2.7em;
+    width: auto;
+    margin-bottom: 2%;
+    text-align: center;
 }
 div.divider {
     display: flex;
@@ -202,4 +206,7 @@ div.divider {
 }
 .divider img {
     height: 4.17em;
+}
+section.posts {
+    margin-bottom: 3em;
 }
