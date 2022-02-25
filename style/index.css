@@ -229,7 +229,7 @@ div.container {
         display: none;
     }
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 430px) {
     figure.last {
         display: unset;
     }
